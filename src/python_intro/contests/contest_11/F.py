@@ -1,0 +1,1 @@
+print(*list(map(lambda l: (l[0] + l[1]) % 2, zip(map(int, input().split()), map(int, input().split())))))
